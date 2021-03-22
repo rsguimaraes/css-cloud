@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #F5D6B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.box{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .c-circle{
+    height:7rem;
+    width:7rem;
+    background-color:#D86F45;
+    border-radius: 50%;
+    position:absolute;
+  } 
+  
+  .c-left{
+    top:7.8rem;
+    left:1.9rem
+  }
+  
+  .c-right{
+    top:5.7rem;
+    right:5.1rem
+  }
+  
+  .c-base{
+    height:3.2rem;
+    width:11rem;
+    background-color:#D86F45;
+    border-radius:24%/90%;
+    position:absolute;
+    bottom:5.2rem
+  }
